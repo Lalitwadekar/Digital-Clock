@@ -22,12 +22,15 @@ h2{
     display: flex;
 }
 
+
+
 .clock div{
 margin: 5px;
 position: relative;
 }
 
 .clock span{
+    
     width: 100px;
     height: 80px;
     background: #255681;
@@ -55,5 +58,16 @@ position: relative;
     width: 60px;
     height: 30px;
     font-size: 15px;
+    letter-spacing: 2px;
     background: #021221;
+}
+
+.clock #hour{
+    border-radius: 20px 20px 0px 0px;
+}
+.clock #minutes{
+    border-radius: 20px 20px 0px 0px;
+}
+.clock #seconds{
+    border-radius: 20px 20px 0px 0px;
 }
